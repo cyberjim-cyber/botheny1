@@ -1,0 +1,438 @@
+
+html{
+    font-family: sans-serif;
+}
+
+
+
+.logo-name{
+width: 15%;float: left;
+    font-size: 35px;background-color:darkcyan ;height: 60px;margin-top: 20px;text-align: center;color: white;
+}
+header{
+    background-image:linear-gradient(rgba(0 ,0,0,.6) ,rgba(0 ,0,0,.6)), url("images/hero-bg.jpg");background-position: center;height: 600px;overflow: hidden;background-size: cover;position: relative;
+
+}
+.logo-name a{
+
+    text-decoration: none;
+}
+.bethany{
+
+    color: white;overflow: hidden;background-color: darkcyan;
+}
+.row{
+
+    max-width: 1200px;margin: auto;
+}
+.main-menu{
+
+    width:85%;float: left;background-color: whitesmoke;height: 60px;margin-top: 20px;
+}
+.menu{
+    height: 20%;
+}
+.menu-list{
+    float: right;position: relative;
+}
+.menu-list li{
+
+    float: left;list-style: none;
+}
+.menu-list li a{
+    text-decoration: none;text-transform: uppercase;font-size: 20px;background-color: indianred;margin:0px 25px 0px 35px;padding: 7px 12px;border-radius: 8px;
+}
+.dropdown-menu{
+
+    display: none;margin: 0px;padding: 0px;position: absolute;
+}
+.dropdown-menu li{
+
+    float: none;
+    margin-top: 12px;
+}
+.dropdown-menu li a{
+
+background-color: rgba(3, 3, 3, 0.774);color: white;padding: 4px 14px 4px 9px;
+}
+.menu-list li:hover .dropdown-menu{
+
+display: block;
+}
+.get-button{
+
+    border:2px solid aqua; padding: 8px 14px;text-decoration: none;text-transform: capitalize;font-size: 20px;border-radius: 17px;color: white;background-color: darkcyan;
+}
+.get-button:hover{
+background-color: white;color: rgb(0, 119, 255);
+
+}
+.header-description{
+
+    position: absolute;top:50%;left: 50%;transform: translate(-50% ,-50%);
+}
+.main-header{
+
+    font-size: 45px;width: 900px;color: white;
+}
+.header-paragraph{
+    text-align: center;font-size: 18px;color: white;
+}
+.get-button-2{
+margin-left:  300px;
+   padding: 10px 30px;text-decoration: none;text-transform: capitalize;font-size: 20px;border-radius: 18px;color: white;text-align:center ;border: 2px solid white;
+}
+.get-button-2:hover{
+    
+        background-color: white;color: rgb(0, 119, 255);
+        
+        
+}
+.button-get{
+
+    margin-top: 50px !important;
+}
+.col{
+
+   float: left;margin: 1%;
+}
+.span-6{
+
+    width:14%;
+}
+.client-image{
+    width: 80px;
+}
+.product{
+
+    padding-top: 50px;height: 500px;background-color: white;
+}
+.span-2{
+
+    width:48%;
+}
+.vel-header{
+
+    font-size: 45px;
+}
+.vel-paragraph{
+
+    font-size: 23px;
+}
+p{
+
+    font-size: 20px;
+}
+.span-4{
+
+    width:22%;
+}
+.counter{
+
+    background-color: darkcyan;height: 230px;padding-bottom: 30px;
+}
+.des{
+
+    font-size: 35px;color: white;margin-top: 0px !important;
+}
+.number{
+
+    font-size: 50px;color: white;
+}
+.span-3{
+
+    width:16%;transition: 1s;border-left: 2px solid hotpink; box-shadow: 10px 10px 30px gray;padding:0px 7px 0px 7px
+}
+.span-3-1{
+
+    width:27%;box-shadow: 10px 10px 30px gray;background-color: hotpink;color: white;border-radius: 35px 5px 35px 5px;padding:0px 7px 30px 7px
+}
+.span-3:hover{
+  margin-top: -7px;
+
+}
+
+h4{
+    font-size: 30px;text-align: center;
+}
+.paragraph-align{
+
+    text-align: center;
+}
+h5{
+
+    font-size: 40px;
+}
+.learn-button{
+margin-left: 80px;
+    text-decoration: none;text-transform: capitalize;font-size: 22px;background-color: darkcyan;color: white;padding: 8px 15px;border-radius: 10px;
+}
+.learn-button:hover{
+
+    background-color: white;color: cyan;
+}
+.chos{
+    padding: 50px 0px 30px 0px;height: 600px;background-color: white;
+}
+.small-bg-des{
+
+    text-align: center;
+}
+.call-button{
+margin-left: 480px ;margin-top: 30px;
+    padding: 10px 30px;text-decoration: none;text-transform: capitalize;font-size: 20px;border-radius: 15px;color: white;text-align:center ;border: 2px solid aqua;
+}
+.call-button:hover{
+
+    background-color: white;color: rgb(0, 119, 255);
+}
+.small-background{
+
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("images/cta-bg.jpg");background-position: center;background-size: 100%;color: white;height: 250px;padding: 20px 0px;
+}
+.call-action{
+    font-size: 35px;
+}
+.span-2-2{
+
+    width:30%;
+}
+.service{
+
+    font-size: 45px;
+}
+.service::after{
+
+    content: " ";width:170px;height: 2px;background-color: tomato;display: block;margin-left: 10px;
+}
+.services{
+
+    height: 500px;background-color: rgb(47, 54, 54);color: white;padding-top: 30px;
+}
+.service-link{
+
+    text-decoration: none;text-transform: capitalize;color: white;
+}
+.service-link:hover{
+
+    color: tomato;
+}
+.span-2-1{
+
+    width: 31%;border: 1px solid darkolivegreen;border-radius: 9px;
+}
+.client-photo{
+
+    width:100px;height: 100px;border-radius: 50%;margin-left: 50px;
+}
+.test-header,.test-paragraph{
+
+    text-align: center;
+}
+.test-header{
+    font-size: 45px;
+}
+.test-header::after{
+
+    content: " ";width:220px;height: 2px;background-color: tomato;display: block;margin-left: 500px;
+}
+.test-shadow{
+
+    box-shadow: 10px 10px 35px gray;border-left: 2px solid slategray;transition: 1s;border-radius: 10px;padding-left: 10px;
+}
+.testimonial{
+
+    height: 550px;background-color: white;
+}
+.test-shadow:hover{
+    margin-top: -7px;
+}
+.test-4{
+    margin-left: 0px;
+}
+.client-name{
+    text-align: center;color: tomato;
+}
+form{
+    width:650px;margin: auto;
+}
+.contact-header{
+
+    font-size: 40px;text-align: center;text-transform: capitalize;
+}
+input {
+padding: 14px 35px;font-size: 18px;
+    
+}
+textarea{
+
+    width:610px;font-size: 20px;
+}
+.contact-paragraph{
+    text-align: center;
+}
+.name{
+
+    float: left;width: 250px;
+}
+.submit{
+    padding: 10px 30px;text-decoration: none;text-transform: capitalize;font-size: 20px;border-radius: 15px;text-align:center ;border: 2px solid aqua;color: rgb(105, 101, 101);
+}
+.sub-div{
+
+    margin: 25px 0px 0px 200px;
+}
+.submit:hover{
+
+    color: white;background-color: cyan;
+}
+.contact{
+
+    height: 600px;padding-top: 30px;background-color: rgb(184, 179, 179);
+}
+.contact-header::after{
+    content: " ";width:135px;height: 2px;background-color: tomato;display: block;margin-left: 533px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:1024px){
+   
+    .span-3{
+    
+        width:60%;
+    }
+ .span-3-1{
+
+    width:31%;
+ }
+
+.small-bg-media{
+
+    margin: 0px 20px;
+}
+
+
+.call-button{
+margin: 25px 0px 0px 350px;
+
+}
+.test-header::after{
+margin-left: 400px;
+}
+
+
+.span-4{
+
+    width:21%;
+}
+
+.testimonial{
+
+    height: 600px;
+}
+
+.contact-header::after{
+
+    margin-left: 430px;
+}
+
+
+.get-button{
+
+    display: none;
+}
+
+
+.menu{
+
+    margin-left: 25px;margin-right: 25px;
+}
+    
+.menu-list li a{
+    font-size: 18px;margin:0px 10px 0px 25px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+
+
+.menu-list{
+
+    display: none;
+}
+
+.main-menu{
+width: 81%;
+    background-color: darkcyan;margin-right: 15px;
+}
+.logo-name{
+
+    width: 16%;
+}
+
+.main-header{
+
+    font-size: 22px;margin-left: 30px;
+}
+.header-description{
+
+    width: 580px;margin: 50px auto auto auto;
+}
+.header-paragraph{
+
+    font-size: 14px;margin-left: 0px;
+}
+
+.get-button-2{
+
+    margin-left: 200px;
+}
+
+
+
+
+
+.main-menu{
+
+    width: 595px;
+}
+
+.span-6{
+
+    width:29%;
+}
+
+
+.margin-none{
+
+    margin-left: 0px;
+}
+
+
+
+
+}
