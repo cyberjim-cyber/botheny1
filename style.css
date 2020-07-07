@@ -1,3 +1,4 @@
+/*------------- start style --------------*/
 
 html{
     font-family: sans-serif;
@@ -296,6 +297,7 @@ textarea{
 }
 
 
+/* -----------end style ------------*/
 
 
 
@@ -304,8 +306,7 @@ textarea{
 
 
 
-
-
+/*----------start responsive style----------*/
 
 @media  screen and (max-width:1024px){
    
@@ -436,3 +437,7 @@ width: 81%;
 
 
 }
+
+
+
+/*-----------------end responsive style ----------------*/
